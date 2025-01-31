@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+
+
+.nav{
+    height: 56px;
+    background-color: #9290ce;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-img{
+    height: 56px;
+    width: 60px;
+    background-image:url("Screenshot_4-1-2025_51136_sites.google.com.jpeg");
+    background-size: cover;
+}
+.head-title{
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+}
+
+.title{
+    font-size: 54px;
+    color: #9290ce;
+}
+hr{
+    height: 2px;
+    color: #ffffff0a;
+}
+.our-services{
+    background-color: black;
+    height: 500px;
+}
+
+
+/*smartphones*/
+@media(max-width:600px){
+.p{
+    visibility: hidden;
+}
+.all{
+    height: 56px;
+    width: 50px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-title{
+    padding-left: 15vw;
+}
+}
+
+    
+
+/*tablet*/
+@media((min-width:601px)and(max-width:992px)){
+h1{
+    color: white;
+}
+
+}
